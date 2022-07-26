@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-jmp/static/css/main.f0d685eb.css",
+    "main.js": "/portfolio-jmp/static/js/main.a76e9bfe.js",
+    "static/media/password generator.png": "/portfolio-jmp/static/media/password generator.3cf044362aa41f821365.png",
+    "static/media/coding test.png": "/portfolio-jmp/static/media/coding test.f5de566441b706c3b433.png",
+    "static/media/weather forecast.png": "/portfolio-jmp/static/media/weather forecast.3666e6c7d26cce233440.png",
+    "static/media/handlebars.png": "/portfolio-jmp/static/media/handlebars.12cc7596d6934c2c79eb.png",
+    "index.html": "/portfolio-jmp/index.html",
+    "main.f0d685eb.css.map": "/portfolio-jmp/static/css/main.f0d685eb.css.map",
+    "main.a76e9bfe.js.map": "/portfolio-jmp/static/js/main.a76e9bfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0d685eb.css",
+    "static/js/main.a76e9bfe.js"
+  ]
+}
