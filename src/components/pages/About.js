@@ -1,9 +1,12 @@
 import React from 'react';
+import image5 from '../img/PHOTO.png';
+
 
 export default function About() {
   return (
     <div>
       <h1>About me</h1>
+      <img src={image5}  style={linkStyle} alt="decorative"></img>
       <p>
       Front-end Web Developer with strong math skills and a degree in Material Engineering. Recognized as proactive, resourceful, and persistent problem-solver. I’m looking to leverage my development skills to provide small businesses with web applications that support their metrics. I earned a certificate as a full-stack developer from the University of Toronto where I implemented JavaScript, Node, SQL, HTML, and CSS. 
 
