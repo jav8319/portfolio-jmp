@@ -3,7 +3,7 @@ import image5 from '../img/PHOTO.png';
 
 
 export default function About() {
-  const linkStyle1 = { Height: '80px', Width: '60px' };
+  const linkStyle1 = { Height: '40px', Width: '30px' };
   return (
     <div>
       <h1>About me</h1>
