@@ -3,6 +3,7 @@ import image1 from '../img/handlebars.png';
 import image2 from '../img/password generator.png';
 import image3 from '../img/weather forecast.png';
 import image4 from '../img/coding test.png';
+import image5 from '../img/project3.png';
 
 
 export default function Portfolio() {
@@ -18,6 +19,7 @@ export default function Portfolio() {
       <a href="https://jav8319.github.io/blue-galaxy/Passwgntor.html"><img src={image2}  style={linkStyle} alt="decorative"></img></a>
       <a href="https://jav8319.github.io/scattered_on/"><img src={image3} style={linkStyle} alt="decorative"></img></a>
       <a href="https://jav8319.github.io/sunshine-path/"><img src={image4} style={linkStyle} alt="decorative"></img></a>
+      <a href="https://github.com/danielfu13/pineapple_juice.git"><img src={image5} style={linkStyle} alt="decorative"></img></a>
     </div>
     </div>
 </div>
