@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-jmp/static/css/main.f0d685eb.css",
-    "main.js": "/portfolio-jmp/static/js/main.172ae877.js",
-    "static/media/password generator.png": "/portfolio-jmp/static/media/password generator.3cf044362aa41f821365.png",
-    "static/media/coding test.png": "/portfolio-jmp/static/media/coding test.f5de566441b706c3b433.png",
-    "static/media/PHOTO.png": "/portfolio-jmp/static/media/PHOTO.e88120bfed1e93357800.png",
-    "static/media/weather forecast.png": "/portfolio-jmp/static/media/weather forecast.3666e6c7d26cce233440.png",
-    "static/media/handlebars.png": "/portfolio-jmp/static/media/handlebars.12cc7596d6934c2c79eb.png",
-    "static/media/project3.png": "/portfolio-jmp/static/media/project3.4bece7449a8f64a21bb9.png",
+    "main.css": "/portfolio-jmp/static/css/main.5d64c629.css",
+    "main.js": "/portfolio-jmp/static/js/main.be47f809.js",
+    "static/media/PHOTO.png": "/portfolio-jmp/static/media/PHOTO.f5858a8f59808f2f0b4e.png",
+    "static/media/newsonclick.png": "/portfolio-jmp/static/media/newsonclick.aa95792b8d803ebc82a1.png",
+    "static/media/lofle.png": "/portfolio-jmp/static/media/lofle.2a4df8b6d9705d47cfd4.png",
+    "static/media/CMS.png": "/portfolio-jmp/static/media/CMS.c9bba4964c17deb1f162.png",
+    "static/media/readme generator.png": "/portfolio-jmp/static/media/readme generator.6a22c7413b9b1b148299.png",
+    "static/media/team members.png": "/portfolio-jmp/static/media/team members.9a20029a836ea1ada741.png",
+    "static/media/Weather forecast.png": "/portfolio-jmp/static/media/Weather forecast.f2172f13c5e2c1a0f6c8.png",
+    "static/media/the tech blog.png": "/portfolio-jmp/static/media/the tech blog.ace3053417167c4c060e.png",
+    "static/media/password_generator.png": "/portfolio-jmp/static/media/password_generator.09b85d65bd07accb3ebc.png",
     "index.html": "/portfolio-jmp/index.html",
-    "main.f0d685eb.css.map": "/portfolio-jmp/static/css/main.f0d685eb.css.map",
-    "main.172ae877.js.map": "/portfolio-jmp/static/js/main.172ae877.js.map"
+    "main.5d64c629.css.map": "/portfolio-jmp/static/css/main.5d64c629.css.map",
+    "main.be47f809.js.map": "/portfolio-jmp/static/js/main.be47f809.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0d685eb.css",
-    "static/js/main.172ae877.js"
+    "static/css/main.5d64c629.css",
+    "static/js/main.be47f809.js"
   ]
 }
