@@ -1,11 +1,48 @@
 import React from 'react';
 import imagejmp from '../img/PHOTO.png' ;
 const photoStyle={width: '60px'}
+// const styles = {
+//   card: {
+//     margin: 20,
+//     background: '#e8eaf6',
+//   },
+//   heading: {
+//     background: '#3f51b5',
+//     minHeight: 50,
+//     lineHeight: 3.5,
+//     fontSize: '1.2rem',
+//     color: 'white',
+//     padding: '0 20px',
+//   },
+//   content: {
+//     padding: 20,
+//   },
+
+//   @media screen and (max-width: 768px) {
+//     header, main {
+//       flex-direction: column;
+//     }
+  
+//     section {
+//       padding-right: 0;
+//     }
+  
+//     aside {
+//       width: 100%;
+//       text-align: center;
+//     }
+//   }
+
+
+
+
+
+// };
 
 export default function About() {
   
   return (
-    <div className="row align-items-center justify-content-center py-4 contentBackground"  style={{height:'700px'}}>
+    <div className="row align-items-center justify-content-center py-4 contentBackground aboutheight">
       <div className="col-8">
         <h2 className="py-4">
           About me

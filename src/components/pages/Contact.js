@@ -10,9 +10,9 @@ export default function Contact() {
         </h2>
       </div>
     </div>
-    <div className="row align-items-center justify-content-center py-1 contentBackground" style={{height:'600px'}}>
-      <div class="col-5">
-          <form>
+    <div className="row align-items-center justify-content-left py-1 contentBackground" style={{height:'600px'}}>
+      <div class="col">
+          <form className="contactpos">
               <div className="form-group">
                 <label for="name">Name</label>
                 <input type="name" className="form-control" id="name" placeholder="Name"></input>

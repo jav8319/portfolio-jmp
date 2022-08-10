@@ -12,3 +12,114 @@
     background-color:burlywood;
 }
 
+.aboutheight{
+  height: 700px;
+}
+
+@media screen and (max-width: 1900px) {
+  .aboutheight{
+    height: 500px;
+  }
+
+}
+
+@media screen and (max-width: 1130px) {
+  .aboutheight{
+    height: 600px;
+  }
+
+}
+
+@media screen and (max-width: 922px) {
+  .aboutheight{
+    height: 900px;
+  }
+
+}
+
+@media screen and (max-width: 774px) {
+    .aboutheight{
+      height: 1100px;
+    }
+
+}
+
+@media screen and (max-width: 524px) {
+  .aboutheight{
+    height: 1300px;
+  }
+
+}
+
+@media screen and (max-width: 454px) {
+  .aboutheight{
+    height: 1600px;
+  }
+
+}
+
+@media screen and (max-width: 387px) {
+  .aboutheight{
+    height: 1950px;
+  }
+
+}
+@media screen and (max-width: 324px) {
+  .aboutheight{
+    height: 2200px;
+  }
+
+}
+
+@media screen and (max-width: 292px) {
+  .aboutheight{
+    height: 3000px;
+  }
+
+}
+
+
+.portfoliowidth{
+  width:300px
+}
+
+@media screen and (max-width: 400px) {
+  .portfoliowidth{
+    width: 250px;
+  }
+
+}
+
+@media screen and (max-width: 330px) {
+  .portfoliowidth{
+    width: 220px;
+  }
+
+}
+
+@media screen and (max-width: 292px) {
+  .portfoliowidth{
+    width: 180px;
+  }
+
+}
+
+@media screen and (max-width: 240px) {
+  .portfoliowidth{
+    width: 150px;
+  }
+
+}
+
+
+.contactpos{
+width: 700px;
+  
+}
+
+@media screen and (max-width: 700px) {
+  .contactpos{
+    width: Auto;
+  }
+
+}

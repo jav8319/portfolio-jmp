@@ -30,7 +30,7 @@ export default function Portfolio() {
 
           <div className="row">
             <div className="col py-2">
-              <div className="card d-block" style={{width:'300px'}}>
+              <div className="card portfoliowidth">
                 <img src={image1} className="card-img-top" alt="decorative" style={linkStyle}></img>
                 <div className="card-body">
                   <p className="card-text"><a href="https://jav8319.github.io/blue-galaxy/Passwgntor.html">Password Generator</a><br></br>
@@ -39,7 +39,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col py-2">
-              <div className="card" style={{width:'300px'}}>
+              <div className="card portfoliowidth">
                 <img src={image2} className="card-img-top" alt="decorative"></img>
                 <div className="card-body">
                   <p className="card-text"><a href="https://jav8319.github.io/sunshine-path/">JavaScript Test</a><br></br>
@@ -48,7 +48,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col py-2">
-              <div className="card" style={{width:'300px'}}>
+            <div className="card portfoliowidth">
                 <img src={image3} className="card-img-top" alt="decorative"></img>
                 <div className="card-body">
                   <p className="card-text"><a href="https://jav8319.github.io/scattered_on/">Weather Forecast</a><br></br>
@@ -57,7 +57,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col py-2">
-              <div className="card" style={{width:'300px'}}>
+            <div className="card portfoliowidth">
                 <img src={image4} className="card-img-top" alt="decorative"></img>
                 <div className="card-body">
                   <p className="card-text"><a href="https://github.com/jav8319/readme-generator-jav2022.git">Readme Generator</a><br></br>Node.js(inquierer)</p>
@@ -65,7 +65,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col py-2">
-              <div className="card" style={{width:'300px'}}>
+            <div className="card portfoliowidth">
                 <img src={image5} className="card-img-top" alt="decorative"></img>
                 <div className="card-body">
                   <p className="card-text"><a href="https://github.com/jav8319/teamboard_ja22.git">Team members<br></br></a>Node.js inquierer, object orientaion programming , css, HTML</p>
@@ -73,7 +73,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col py-2">
-              <div className="card" style={{width:'300px'}}>
+            <div className="card portfoliowidth">
                 <img src={image6} className="card-img-top" alt="decorative"></img>
                 <div className="card-body">
                   <p className="card-text"><a href="https://github.com/jav8319/CMS_app_jm22.git">Content Management Systems app</a><br></br>SQL, Node.js</p>
@@ -81,7 +81,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col py-2">
-              <div className="card" style={{width:'300px'}}>
+            <div className="card portfoliowidth">
                 <img src={image7} className="card-img-top" alt="decorative"></img>
                 <div className="card-body">
                   <p className="card-text"><a href="https://secret-tundra-30697.herokuapp.com/">The thech blog</a><br></br>
@@ -98,8 +98,8 @@ export default function Portfolio() {
             Collborative projects-agile development
           </h4>
           <div className="row">
-            <div className="col">
-              <div className="card" style={{width:'300px'}}>
+            <div className="col py-2">
+            <div className="card portfoliowidth">
                 <img src={image8} className="card-img-top" alt="decorative" style={linkStyle}></img>
                 <div className="card-body">
                   <p className="card-text"><a href="https://pooja3093.github.io/refactored-succotash-/index.html">OnClick News</a><br></br>
@@ -107,8 +107,8 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-            <div className="col">
-              <div className="card" style={{width:'300px'}}>
+            <div className="col py-2">
+            <div className="card portfoliowidth">
                 <img src={image9} className="card-img-top" alt="decorative"></img>
                 <div className="card-body">
                   <p className="card-text"><a href="https://quiet-woodland-99342.herokuapp.com/">League of Legends LFG</a><br></br>
