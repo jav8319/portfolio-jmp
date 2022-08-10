@@ -4,48 +4,47 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col">
-          <h1>Javier Muriel Palacios</h1>
-        </div>
-        <div className="col">
-            <ul className="nav justify-content-end">
-                <li class="nav-item">
-                  <a
-                    href="#About me"
-                    onClick={() => handlePageChange('About me')}
-                    // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-                    // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                    className={currentPage === 'About me' ? 'nav-link active' : 'nav-link'}
-                  >
-                    About me
-                  </a>
-                </li>
-                <li className="nav-item">
-                <a
-                  href="#Portfolio"
-                  onClick={() => handlePageChange('Portfolio')}
-                  // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                  className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-                >
-                 Portfolio
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="#Contact"
-                  onClick={() => handlePageChange('Contact')}
-                  // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                  className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-        </div>
+    <ul className="d-sm-flex">
+      <div className="px-4">
+        <li className="nav-item">
+          <h4>
+          <a
+            href="#About me"
+            onClick={() => handlePageChange('About me')}
+            className={currentPage === 'About me' ? 'nav-link active' : 'nav-link'}
+          >
+          About me
+          </a>
+          </h4>
+        </li>
       </div>
-    </div>
+      <div className="px-4">
+        <li className="nav-item">
+          <h4>
+          <a
+            href="#Portfolio"
+            onClick={() => handlePageChange('Portfolio')}
+            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          >
+            Portfolio
+          </a>
+          </h4>
+        </li>
+      </div>
+      <div className="px-4">
+        <li className="nav-item">
+          <h4>
+          <a
+            href="#Contact"
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          >
+          Contact
+          </a>
+          </h4>
+        </li>
+      </div>
+    </ul>
   );
 }
 
